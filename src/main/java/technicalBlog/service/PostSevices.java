@@ -1,4 +1,4 @@
-package technicalBlog.post;
+package technicalBlog.service;
 
 import org.springframework.stereotype.Service;
 import technicalBlog.model.Post;
@@ -39,4 +39,5 @@ public class PostSevices {
         posts.add(post1);
         return posts;
     }
+    public void createPost(Post newPost) {}
 }
